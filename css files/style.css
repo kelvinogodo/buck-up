@@ -1,0 +1,399 @@
+
+/* header codes begins here */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: auto;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+header{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.logo{
+    width: 80px;
+    height: 40px;
+    object-fit: cover;
+    margin-left: auto;
+    position: absolute;
+    /* background-color: white; */
+}
+.navbar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.navlist{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.link{
+    text-decoration: none;
+    font-family: poppins;
+    color: white;
+    text-transform: capitalize;
+}
+.register-btn{
+    width: 12%;
+    height: 70%;
+    font-family: poppins;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: none;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+/* end of header code */
+
+/* code beginning of the first section of the site */
+
+.landpage{ 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/pexels-curtis-loy-5196014.jpg);
+    background-position: center;
+    position: relative;
+}
+.landpage::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    background-color: rgba(59, 59, 59, 0.733);
+    mix-blend-mode: overlay;
+    height: 100%;
+}
+.welcome-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcome-text h1{
+    font-family: poppins;
+    color: white;
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.welcome-text p{
+    text-align: center;
+    font-size: 2rem;
+    font-family: ubuntu;
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+    padding: 20px;
+    width: 80%;
+}
+/* end of the first section */
+
+/* code for the beginning of aim section code */
+.aim-section{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aim-section h1{
+    height: 20%;
+    font-family: poppins;
+}
+.aim-section p{
+    font-family: varela round;
+    width: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+
+/*end code for the beginning of aim section code */
+
+/* code for the beginning of service section code */
+
+.service-section{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: green; */
+}
+.service-card{
+    height: 70%;
+    width: 20%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+.service-img-container{
+    width: 100%;
+    height: 50%;
+    
+}
+.service-img-container img{
+    object-fit:contain;
+    max-width: 100%;
+    height: 100%;
+    width: 100%;
+}
+.service-text-container{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.service-text-container h1{
+    margin-bottom: 10px;
+    font-family: poppins;
+    text-transform: capitalize;
+}
+.service-text-container p{
+    font-family: varela round;
+    text-align: center;
+}
+
+.our-vision-section{
+    width: 100%;
+    margin-top: 100px;
+}
+.vision-text-container{
+    width: 100%;
+    background-color: rgba(172, 16, 16, 0.048);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.vision-text-container h1{
+    font-size: 2.5rem;
+    font-family: poppins;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.vision-img-container{
+    height: 60vh;
+    width: 100%;
+}
+.vision-img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.project-img-container{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 3;
+}
+.darkline{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.counter{
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    font-family: poppins;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+/* code for beginning of the contact section */
+
+.contact-section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.contact-details-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    flex-direction: column;
+}
+.contact-details-container h1{
+    font-family: poppins;
+    height: 20%;
+    text-transform: capitalize;
+}
+.contact-details-container p,address{
+    font-family: varela round;
+    line-height: 30px;
+}
+form{
+    border-radius: 10px;
+    margin-left: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgb(161, 161, 161);
+}
+.login-label{
+    width: 80%;
+    font-family: varela round;
+    opacity: 80%;
+    color: black;
+}
+.login-input{
+    width: 80%;
+    height: 40px;
+    border: 2px solid black;
+    text-indent: 10px;
+}
+.submit-btn-container{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.login-btn{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-family: varela round;
+    border: none;
+    font-size: 1rem;
+}
+.social-media-handle{
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.social-media-handle img{
+    width: 40px;
+    height: 40px;
+}
+footer p{
+    font-family: ubuntu;
+}
+footer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+}
+@media screen and (max-width:900px) {
+    .navbar{
+        display: none;
+    }
+    .register-btn{
+        width: 40%;
+    }
+    
+    .welcome-text h1{
+        font-size: 3rem;
+    }
+    .welcome-text p{
+        font-size: 1.8rem;
+    }
+    .aim-section{
+        margin-top: 25px;
+        height: auto;
+        flex-direction: column;
+        padding: 5px;
+    }
+    .aim-section p{
+        width: 90%;
+    }
+    .service-section{
+        flex-direction: column;
+        height: auto;
+    }
+    .service-card{
+        width: 100%;
+    }
+    .service-img-container img{
+        height: 100px;
+    }
+    .service-text-container {
+        width: 90%;
+    }
+    .vision-text-container h1{
+        font-size: 2rem;
+    }
+    .vision-img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .social-media-handle{
+        width: 50%;
+    }
+    .social-media-handle img{
+        height: 25px;
+        width: 25px;
+    }
+    .contact-details-container h1{
+        font-size: 1rem;
+    }
+    .contact-details-container p,address{
+        font-size: .8rem;
+    }
+    form{
+        width: auto;
+        min-width: 100%;
+        margin: auto;
+    }
+    .contact-details-container{
+        width: 100%;
+        margin-top:20px ;
+        margin-bottom:40px ;
+    }
+    .contact-section{
+        flex-direction: column;
+        height: auto;
+    }
+    footer p{
+        font-size: .8rem;
+    }
+}
