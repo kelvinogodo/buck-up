@@ -123,12 +123,14 @@ header{
 .aim-section h1{
     height: 20%;
     font-family: poppins;
+    font-size: 3rem;
 }
 .aim-section p{
     font-family: varela round;
     width: 50%;
     line-height: 30px;
     text-align: center;
+    margin-top: 40px;
 }
 
 /*end code for the beginning of aim section code */
