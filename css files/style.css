@@ -106,6 +106,9 @@ header{
     padding: 20px;
     width: 80%;
 }
+.red-text{
+    color: red;
+}
 /* end of the first section */
 
 /* code for the beginning of aim section code */
@@ -324,6 +327,9 @@ footer{
     flex-direction: column;
 }
 @media screen and (max-width:900px) {
+    header{
+        padding-left: 10px;
+    }
     .navbar{
         display: none;
     }
@@ -343,8 +349,15 @@ footer{
         flex-direction: column;
         padding: 5px;
     }
+    .aim-section h1{
+        font-size: 2.5rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
     .aim-section p{
         width: 90%;
+        text-align: left;
+        margin-top: 30px;
     }
     .service-section{
         flex-direction: column;
@@ -352,9 +365,14 @@ footer{
     }
     .service-card{
         width: 100%;
+        margin-top: 40px;
+        margin-bottom: 20px;
     }
     .service-img-container img{
         height: 100px;
+    }
+    .service-text-container p{
+        text-align: left;
     }
     .service-text-container {
         width: 90%;
@@ -363,8 +381,9 @@ footer{
         font-size: 2rem;
     }
     .vision-img{
-        width: 100%;
+        width: 90%;
         max-width: 100%;
+        margin: auto;
     }
     .social-media-handle{
         width: 50%;
