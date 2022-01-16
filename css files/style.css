@@ -213,9 +213,15 @@ header{
     object-fit: cover;
 }
 .project-img-container{
-    display: grid;
-    grid-template-columns: 2;
-    grid-template-rows: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.vision-img{
+    width: 70%;
+    object-fit: contain;
+    max-width: 70%;
 }
 .darkline{
     margin: auto;
