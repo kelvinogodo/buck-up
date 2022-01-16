@@ -173,10 +173,11 @@ header{
     margin-bottom: 10px;
     font-family: poppins;
     text-transform: capitalize;
+    text-align: center;
 }
 .service-text-container p{
     font-family: varela round;
-    text-align: left;
+    text-align: center;
 }
 
 .our-vision-section{
