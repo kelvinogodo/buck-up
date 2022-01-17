@@ -384,6 +384,7 @@ footer{
     .service-text-container p{
         text-align: left;
         font-size: 1.1rem;
+        width: 75%;
     }
     .service-text-container {
         width: 90%;
