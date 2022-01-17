@@ -367,6 +367,7 @@ footer{
         width: 90%;
         text-align: left;
         margin-top: 30px;
+        font-size: 1.1rem;
     }
     .service-section{
         flex-direction: column;
@@ -382,6 +383,7 @@ footer{
     }
     .service-text-container p{
         text-align: left;
+        font-size: 1.1rem;
     }
     .service-text-container {
         width: 90%;
@@ -398,8 +400,8 @@ footer{
         width: 50%;
     }
     .social-media-handle img{
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
     }
     .contact-details-container h1{
         font-size: 1rem;
@@ -408,9 +410,7 @@ footer{
         font-size: .8rem;
     }
     form{
-        width: auto;
-        min-width: 100%;
-        margin: auto;
+        display: none;
     }
     .contact-details-container{
         width: 100%;
