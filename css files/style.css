@@ -40,6 +40,13 @@ header{
     justify-content: space-around;
     
 }
+.menu-container{
+    display: none;
+}
+.menu-list{
+    display: none;
+    overflow-x: hidden;
+}
 .link{
     text-decoration: none;
     font-family: poppins;
@@ -342,6 +349,93 @@ footer{
     header{
         padding-left: 10px;
     }
+    .mobile-logo{
+        height: 120px;
+        width: 120px;
+        object-fit: cover;
+    }
+    .register-btn{
+        display: none;
+    }
+    .menu-container{
+        width: 60px;
+        height: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+    .menu-line{
+        height: 4px;
+        width: 35px;
+        border-radius: 5px;
+        background-color: white;
+        margin: 3px;
+    }
+    .navbar{
+        width: 0%;
+        overflow-x: hidden;
+    }
+    .search-container{
+        display: none;
+    }
+    .menu-list{
+        width: 0%;
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background:rgba(0, 0, 0, 0.925);
+        height: 100%;
+        z-index: 100;
+        overflow-x: hidden;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        transition: .5s ease-in-out;
+    }
+    
+    .list-items{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 60%;
+    }
+    .menu-list li{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+    .menu-list a{
+        width: 80%;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: .8rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .menu-list-login{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: 40%;
+        overflow-x: hidden;
+        background-color: white;
+        padding: 10px;
+    }
+    .close-btn{
+        width: 40px;
+        height: 40px;
+    }
     .navbar{
         display: none;
     }
@@ -415,7 +509,8 @@ footer{
         font-size: .8rem;
     }
     form{
-        display: none;
+       margin: auto;
+
     }
     .contact-details-container{
         width: 100%;
